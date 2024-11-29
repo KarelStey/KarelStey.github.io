@@ -1,0 +1,93 @@
+body {
+    height: 100%;
+    margin: 0;
+    background-image: url('background.jpg');
+    background-color: #ffffff;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    font-family: 'Ubuntu', sans-serif;
+    padding-top: 15vh; /* Set padding-top to the height of the fixed header */
+}
+
+#header {
+    background-color: #fff;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    text-align: center;
+    width: 60%;
+    position: fixed;
+    height: 13vh;
+    top: 0;
+    left: 20%;
+    right: 20%;
+    justify-content: center;
+}
+#header img {
+    max-width: auto; /* Ensure the image resizes proportionally */
+    height: 100%; /* Maintain the image's aspect ratio */
+}
+#footer {
+    background-color: rgb(254, 253, 253);
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    text-align: center;
+    width: 60%;
+    position: fixed;
+    bottom: 0;
+    left: 20%;
+    right: 20%;
+    justify-content: center;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 80px 20%;
+    padding: 15px; }
+
+#left-container,
+#right-container {
+    font-weight: 100; 
+    background: rgba(251, 249, 249, 1.0);
+    color: rgb(2, 0, 0);
+    width: 45%;
+    margin: 20px;
+    
+    
+}
+#left-container img,
+#right-container img {
+    display: block;
+    margin: 0 auto; /* Center the image horizontally */
+    max-width: 25%; /* Ensure the image doesn't exceed container width */
+    height: auto; /* Maintain aspect ratio */
+    margin-bottom: 10px; /* Add some space below the image */
+}
+
+#left-container p,
+#right-container p {
+    margin: 25px; /* Add margin for text */
+    white-space: normal;
+}
+#left-container h4,
+#right-container h4 {
+    margin: 25px; /* Add margin for text */
+    white-space: normal;
+    text-align: center;
+}
+
+#left-container {
+    margin-right: 10px;
+}
+
+#right-container {
+    margin-left: 10px;
+}
+
+#header p,
+#footer p {
+    margin: 0;
+}
